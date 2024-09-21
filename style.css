@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.display{
+    display: none;
+}
+
+.main{
+    padding: 1rem 2rem;
+}
+
+spam{
+    color: #754ffe;
+    text-decoration: underline 6px #f59e0b;
+}
+
+
+/* ================== NAVBAR ====================== */
+
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-anchors{
+    gap: 2rem;
+    text-transform:capitalize;
+    color: grey;
+    
+}
+
+.navbar-anchors h3:hover{
+    color: #754ffe;
+
+}
+
+.btn{
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    background-color: #754ffe;
+    color: white;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: #3f12e1;
+}
+
+.sun{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.sun:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+.menu{
+    font-size: 1.5rem;
+}
+
+/* ========================  NAVBAR-CLOSED  ======================= */
+
+
+/* ===========================  HERO-SECTION ========================== */
+
+/* .hero-child-2{ */
+    /* position: relative;
+} */
+
+.hero-section{
+    margin-top: 2rem;
+}
+
+.hero-child-1{
+    max-width: 600px;
+}
+.hero-child-1 h1{
+    margin-bottom: 2rem;
+    
+}
+
+.hero-child-1 p{
+    margin-bottom: 1.5rem;
+    font-size: 1.10rem;
+}
+
+.hero-child-1 h3{
+    display: flex;
+    gap: 1rem;
+    font-weight: 300;
+    color: grey;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+}
+
+.btn2{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 1rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn2:hover{
+    background-color: rgb(80, 79, 79);
+}
+
+.hero-child-2{
+    position: relative;
+    
+   
+}
+.hero-child-2 img{
+   width: 100%;
+   min-height: 100px;
+   max-height: 500px;
+    border-radius: 30px;
+   
+}
+
+.img{
+    position: absolute;
+    
+}
+
+.img2{
+    top: 40%;
+    left: 25%;
+    z-index: -1;
+}
+
+.img1{
+    z-index: -1;
+    top: -30%;
+    left: -26%;
+}
+
+
+
+
+/* ===================== RESPONSIVE TYPOGRAPHY ================== */
+
+@media (min-width:700px){
+    .display{
+        display: flex;
+    }
+
+    .fa-solid{
+      visibility: hidden;
+    }
+
+    .hero-section{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: space-around;
+    }
+
+    .hero-child-1 h1{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .hero-child-1 p{
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+
+    .btn2{
+        margin-bottom: 0rem;
+    }
+
+    
+}
