@@ -23,6 +23,10 @@ spam{
     text-decoration: underline 6px #f59e0b;
 }
 
+/* img{
+    max-width: 100%;
+} */
+
 
 /* ================== NAVBAR ====================== */
 
@@ -30,6 +34,7 @@ spam{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 2rem;
 }
 
 .navbar-icons{
@@ -88,6 +93,7 @@ spam{
 
 .hero-section{
     margin-top: 2rem;
+    padding: 1rem 2rem;
 }
 
 .hero-child-1{
@@ -159,7 +165,81 @@ spam{
     left: -26%;
 }
 
+/* ========================== HERO-SECTION-CLOSED ===================== */
 
+/* ============================= VIDEO-SECTION  =========================== */
+.video-main-section{
+    background-color: #ede9fe;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+
+}
+
+.video-original{
+    /* margin: auto; */
+    padding: 2rem 0;
+}
+
+.video-child-1{
+    /* margin: auto; */
+}
+
+.video-section-child-11{
+    margin-bottom: 2rem;
+}
+
+.video-section-child-11 h1{
+    margin-bottom: 2rem;
+   
+  
+}
+
+.video-section-child-11 p{
+    margin-bottom: 1rem;
+}
+
+.video-section-child-12{
+   background-color: black;
+   width: 100%;
+   min-height: 200px;
+   max-height: 800px;
+    
+   background-image: url(/assets/asset\ 22.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   outline: 5px solid #e0dcee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* .video-section-child-12 svg:hover{
+    fill: #754ffe;
+   
+
+} */
+
+.bt3{
+    border: 1.75px solid #94a3b8;
+    color: #94a3b8;
+    background-color: #ede9fe;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size:1rem
+}
+
+.bt3:hover{
+    background-color: #64748b;
+    color: white;
+    border: 1.75px solid #94a3b8;
+}
+
+.video-button{
+    position: absolte;
+}
 
 
 /* ===================== RESPONSIVE TYPOGRAPHY ================== */
@@ -193,5 +273,31 @@ spam{
         margin-bottom: 0rem;
     }
 
+    /* ==================== VIDEO-SECTION ==================== */
+
+    .video-original{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+        flex-direction: column;
+
+    }
+    .video-child-1{
+        display: flex;
+        
+        
+    }
+
+    .video-section-child-11{
+        margin-right: 2rem;
+    }
+
+    .video-section-child-11 h1{
+        font-size: 2.5rem;
+    }
     
+    .video-section-child-11 p{
+        font-size: 1.15rem;
+    }
 }
