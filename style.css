@@ -23,6 +23,14 @@ spam{
     text-decoration: underline 6px #f59e0b;
 }
 
+.spam-not{
+    text-decoration: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
 /* img{
     max-width: 100%;
 } */
@@ -169,7 +177,7 @@ spam{
 
 /* ============================= VIDEO-SECTION  =========================== */
 .video-main-section{
-    background-color: #ede9fe;
+    background-color:#e2e8f0;
     padding: 1rem 2rem;
     margin-top: 2rem;
 
@@ -241,6 +249,308 @@ spam{
     position: absolte;
 }
 
+/* ============================ VIDEO-SECTION-CLOSED ================================== */
+
+/* ==================================== COURSE-SECTION =================================== */
+.course-main{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+.course-main p{
+    margin-top: 1rem;
+}
+
+.course-box-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.box{
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 400px;
+    min-width: 300px;
+    height: 340px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    padding: 1rem 0.5rem;
+   
+   
+    
+}
+
+.box h3{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.box h4{
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box h3:hover{
+    color: #754ffe;
+}
+
+/* .box h3,
+.box h4,
+.box span {
+  margin: 5px 0;
+  transition: transform 0.3s ease;
+}
+
+.box:hover h3, 
+.box:hover h4, 
+.box:hover span {
+      transform: translateY(-2px); Moves the text up on hover */
+    
+
+/* .box:hover{
+    transform:translatey(-2px) ;
+    box-shadow:  3px 3px 10px #b5b5b5,
+             -3px -3px 10px #ffffff;
+} */
+
+.box1{
+    background-image: url(/assets/asset\ 9.jpeg);
+}
+
+.box2{
+    background-image: url(/assets/asset\ 10.jpeg);
+}
+
+.box3{
+    background-image: url(/assets/asset\ 11.jpeg);
+}
+
+.box4{
+    background-image: url(/assets/asset\ 12.jpeg);
+}
+
+.box5{
+    background-image: url(/assets/asset\ 13.jpeg);
+}
+
+.box6{
+    background-image: url(/assets/asset\ 14.jpeg);
+}
+
+.box7{
+    background-image: url(/assets/asset\ 15.jpeg);
+}
+
+.box8{
+    background-image: url(/assets/asset\ 16.jpeg);
+}
+
+/* ================================ VIDEO-SECTION-CLOSED ================================= */
+
+/* =================================== WEBINAR SECTION ======================================== */
+
+.webinar-main-section{
+    padding: 1rem 2rem;
+    margin: 3rem auto;
+}
+
+.webinar-main-section p{
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+}
+
+.webinar-card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.webinar-box{
+    padding: 0%;
+    
+    
+}
+
+.boxw{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 400px;
+    min-width: 300px;
+    height: 340px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    
+   
+}
+
+.webinar-box1{
+    height: 100%;
+    width: 100%;
+    background-image:url(/assets/asset\ 18.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    
+
+}
+
+.webinar-box2{
+   
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    padding: 1rem;
+}
+
+.webinar-box2 p{
+    margin-bottom: 0.5rem;
+}
+
+.webinar-box2 btn{
+    margin-top: 0.5rem;
+}
+
+.webinar-box2:hover{
+    transform:translatey(-1px) ;
+    box-shadow:  1px 1px 3px #b5b5b5,
+             -0px -0px 0px #ffffff;
+}
+
+.wb2{
+    background-image: url(/assets/asset\ 19.jpeg);
+}
+
+.wb3{
+    background-image: url(/assets/asset\ 20.jpeg);
+}
+
+.webinar-btn{
+    border: none;
+    background-color: #9c84f3a7;
+    text-transform: capitalize;
+    color: #3f12e1;  
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* ============================= WEBINAR-SECTION-CLOSED ============================= */
+
+.certificate-main{
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+}
+.certificate-heading{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.certificate-heading p{
+    margin-top: 1.5rem;
+}
+
+.certificate-child-1{
+    display: flex;
+}
+
+.certificate-child-2{
+    display: flex;
+}
+
+.certificate-box-1{
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 650px;
+    margin: 0rem 1rem;
+
+}
+
+.certi-p{
+    margin:2.5rem 0.5rem;
+}
+
+.certi-p h3{
+    margin: 1rem auto;
+}
+
+
+
+.certificate-box-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ================================= CERTIFICATE-CLOSED ==================================== */
+
+/* ================================== PURPLE-SECTION ========================================== */
+
+.pp-og{
+    padding: 1rem 2rem;
+}
+
+.purple-main{
+    display: flex;
+    background-color: #754ffe;
+    min-height:auto;
+    height: 300px;
+    min-width:200px ;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+
+.purple-child-2{
+    display: none;
+}
+
+.purple-child-1{
+    max-width: 400px;
+}
+
+.purple-child-1 h1{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.purple-child-1 p{
+    color: rgb(195, 194, 194);
+    margin-bottom: 2rem;
+}
+
+.purple-child-1 button{
+    border: none;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.purple-child-1 button:hover{
+    background-color: rgb(42, 41, 41);
+}
+
+
 
 /* ===================== RESPONSIVE TYPOGRAPHY ================== */
 
@@ -299,5 +609,15 @@ spam{
     
     .video-section-child-11 p{
         font-size: 1.15rem;
+    }
+
+
+    .certificate-box{
+        display: flex;
+    }
+    
+
+    .purple-child-2{
+        display: flex;
     }
 }
