@@ -219,7 +219,7 @@ spam{
    min-height: 200px;
    max-height: 800px;
     
-   background-image: url(/assets/asset\ 22.jpeg);
+   background-image: url(assets/asset\ 22.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 10px;
@@ -328,15 +328,15 @@ spam{
 } */
 
 .box1{
-    background-image: url(/assets/asset\ 9.jpeg);
+    background-image: url(assets/asset\ 9.jpeg);
 }
 
 .box2{
-    background-image: url(/assets/asset\ 10.jpeg);
+    background-image: url(assets/asset\ 10.jpeg);
 }
 
 .box3{
-    background-image: url(/assets/asset\ 11.jpeg);
+    background-image: url(assets/asset\ 11.jpeg);
 }
 
 .box4{
@@ -344,19 +344,19 @@ spam{
 }
 
 .box5{
-    background-image: url(/assets/asset\ 13.jpeg);
+    background-image: url(assets/asset\ 13.jpeg);
 }
 
 .box6{
-    background-image: url(/assets/asset\ 14.jpeg);
+    background-image: url(assets/asset\ 14.jpeg);
 }
 
 .box7{
-    background-image: url(/assets/asset\ 15.jpeg);
+    background-image: url(assets/asset\ 15.jpeg);
 }
 
 .box8{
-    background-image: url(/assets/asset\ 16.jpeg);
+    background-image: url(assets/asset\ 16.jpeg);
 }
 
 /* ================================ VIDEO-SECTION-CLOSED ================================= */
@@ -406,7 +406,7 @@ spam{
 .webinar-box1{
     height: 100%;
     width: 100%;
-    background-image:url(/assets/asset\ 18.jpeg);
+    background-image:url(assets/asset\ 18.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0%;
@@ -437,11 +437,11 @@ spam{
 }
 
 .wb2{
-    background-image: url(/assets/asset\ 19.jpeg);
+    background-image: url(assets/asset\ 19.jpeg);
 }
 
 .wb3{
-    background-image: url(/assets/asset\ 20.jpeg);
+    background-image: url(assets/asset\ 20.jpeg);
 }
 
 .webinar-btn{
